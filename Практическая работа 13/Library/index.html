@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Inputs</h2>
+        <label for=""></label>
+        <input class="Input0" type="text" placeholder="Enter some text">
+        <input class="Input1" type="text" placeholder="Valid text">
+        <input class="Input-1" type="text" placeholder="Invalid text">
+    </form>
+    <form>
+        <h2>Checkboxes</h2>
+        <div style="display: flex;"> 
+            <label class="CheckBox">Subscribe
+                <input type="checkbox" >
+                <div class="checkmark"></div>
+            </label>
+            <label class="CheckBox">Subscribe
+                <input type="checkbox" checked="checked">
+                <div class="checkmark"></div>
+            </label>
+        </div>
+    </form>
+    <form>
+        <h2>Radio boxes</h2>
+        <div style="display: flex;">
+            <label>Gender:</label>
+            <label for="Male" class="RadioBox">
+                    <input type="radio" id="Male" value="Male" name="Gender" >
+                    <div class="RadioMark"></div>
+                    Male
+            </label>
+            <label for="Female" class="RadioBox">
+                <input type="radio" id="Female" value="Female" name="Gender">
+                <div class="RadioMark"></div>
+                Female
+            </label>
+        </div>
+    </form>
+    <form>
+        <h2>Buttons</h2>
+        <button class="ActiveGreen">Active</button>
+        <button class="HoverGreen">Hover</button>
+        <button class="Danger">Danger</button>
+        <button class="HoverRed">Hover</button>
+        <button class="Disabled">Disabled</button>
+        <button class="Plus">+</button>
+        <button class="Minus">-</button>
+    </form>
+    <form>
+        <h2>Text Area</h2>
+        <textarea placeholder="Enter some text..."></textarea>
+    </form>
+</body>
+</html>

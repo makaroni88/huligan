@@ -1,0 +1,60 @@
+html, body{
+    padding: 0;
+}
+#Menu{
+    height: 100vh;
+    width: 10%;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    transition: 1s;
+}
+#Menu > div{
+    height: 13%;
+    width: 100%;
+    transition: 1s;
+    display: flex;
+    gap: 15%;
+    color: white;
+}
+#Menu:hover{
+    width: 25%;
+}
+#Menu:hover > div:hover{
+    background-color: gray;
+}
+#Menu > div > div:nth-child(n) > img{
+    height: 100%;
+}
+#Menu > div > div:nth-child(2n){
+    display: none;
+}
+#Menu:hover > div > div:nth-child(2n){
+    display: block;
+    font-size: 30px;
+    align-content: center;
+}
+#Menu > div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+} 
+#MainContent{
+    display: flex;
+    gap: 30px;
+}
+#Place{
+    height: 100vh;
+    width: 10vw;
+}
+#Content{
+    height: 100vh;
+    width: 90vw;
+    font-size: 30px;
+}

@@ -1,0 +1,57 @@
+#Main{
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    font-family: sans-serif;
+    gap: 20px;
+    margin-top: 100px;
+}
+.Subscription{
+    width: 23%;
+    height: 500px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    gap: 10px;
+    transition: 1s;
+}
+.Subscription:hover{
+    transform: scale(1.1);
+}
+.Services{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    width: 100%;
+    border-bottom: 5px solid;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.Price{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+.Price:after{
+    content: "per month";
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(187, 186, 186);
+}
+.Buttons{
+    padding: 15px;
+    color: white;
+    border: none;
+    width: 35%;
+    border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+#Main{
+    margin: auto;
+    background-color:lightblue;
+    height: 600px;
+    width: 60%;
+    border-radius: 20px;
+}
+#Header{
+    background-color: brown;
+    width: 70%;
+    position: relative;
+    top: 40px;
+    right: 40px;
+    color: white;
+    padding: 20px;
+    padding-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Info{
+    margin-top: 50px;
+    width: 70%;
+}
+input{
+    display: block;
+    padding: 10px;
+    background-color: rgb(211, 243, 255);
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    width: 30%;
+}
+label{
+    display: block;
+    margin: 5px;
+}
+#ExpiryDate{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#ExpiryDate_CVV{
+    display: flex;
+    flex-wrap: wrap;
+}
+form{
+    margin: 20px;
+}
+.img{
+    width: 40%;
+    position: relative;
+    left: 60%;
+    bottom: 63%;
+    overflow: hidden;
+}

@@ -1,0 +1,159 @@
+.Input0{
+    padding: 15px;
+    border-radius: 5px;
+}
+.Input1{
+    padding: 15px;
+    border-radius: 5px;
+    background-image: url(/assets/WhatsApp_Image_2024-10-18_at_9.59.06_AM__4_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 15%;
+    border: green solid ;
+    color: green;
+}
+.Input-1{
+    padding: 15px;
+    border-radius: 5px;
+    background-image: url(/assets/WhatsApp_Image_2024-10-18_at_9.59.06_AM__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 15%;
+    border: red solid ;
+    color: red
+}
+.Input0::placeholder{
+    color: lightgrey;
+}
+.Input1::placeholder{
+    color: green;
+}
+.Input-1::placeholder{
+    color: red;
+}
+.CheckBox {
+    display: block;
+    position: relative;
+    padding-left: 4%;
+    cursor: pointer;
+    font-size: 22px;
+    width: 6%;
+  }
+.CheckBox input {
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 50px;
+    border: 2px solid lime;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.checkmark:after {
+    content: "";
+    width: 23px;
+    height: 20px;
+    background-color: lime;
+    display: block;
+    margin: 4px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.CheckBox input:checked ~ .checkmark:after{
+    position: relative;
+    transform: translate(20px, 0px);
+    background-color: red;
+}
+.CheckBox input:checked ~ .checkmark{
+    border: 2px solid red;
+}
+.RadioBox{
+    display: flex;
+    gap: 5px;
+}
+.RadioBox input{
+    width: 0px;
+    height: 0px;
+}
+.RadioMark{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RadioMark::after{
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    transition: 0.5s;
+}
+.RadioBox input:checked ~ .RadioMark::after{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(221, 0, 255);
+    border-radius: 100%;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 0;
+    color: white;
+    border: none;
+}
+.ActiveGreen:active{
+    background-color: limegreen;
+    font-size: 20px;
+}
+.HoverGreen:hover{
+    background-color: green;
+    font-size: 20px;
+}
+.Danger{
+    background-color: violet;
+    cursor: not-allowed;
+    font-size: 20px;
+}
+.HoverRed:hover{
+    background-color: red;
+    font-size: 20px;
+}
+.Disabled{
+    background-color: gray;
+    cursor: wait;
+    font-size: 20px;
+}
+.Plus{
+    border-radius: 100% ;
+    height: 40px;
+    width: 40px;
+    background-color: lime;
+    font-size: 20px;
+}
+.Minus{
+    border-radius: 100% ;
+    height: 40px;
+    width: 40px;
+    background-color: violet;
+    font-size: 20px;
+}
+textarea{
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+}
